@@ -9,5 +9,5 @@ python:
 
 script: 
 
-  - pytest test.py
-  - pytest task3.py
+  - pytest task2/test.py
+  - pytest task2/task3.py

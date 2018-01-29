@@ -7,10 +7,10 @@ python:
   - "3.4"
 
 install:
+  -pip -U pip
   -pip install -r requirements.txt
 
 script: 
-   
-  - pip -U pip
+
   - pytest test.py
   - pytest task3.py

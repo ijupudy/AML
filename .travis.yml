@@ -6,7 +6,9 @@ python:
   - "2.7"
   - "3.4"
 
-install:
+install
+
+  -pip install .
   -pip -U pip
   -pip install -r requirements.txt
 

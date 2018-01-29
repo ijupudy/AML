@@ -8,7 +8,6 @@ python:
 
 install:
 
-  -pip install .
   -pip -U pip
   -pip install -r requirements.txt
 

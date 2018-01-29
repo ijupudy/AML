@@ -14,4 +14,3 @@ script:
 
   - pytest test.py
   - pytest task3.py
-  - pip freeze>requirements.txt

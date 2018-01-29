@@ -6,4 +6,4 @@ python:
 
 script: 
 
-  - pytest test.py
+  - pytest test.py,task3.py
